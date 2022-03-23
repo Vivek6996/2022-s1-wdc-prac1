@@ -87,3 +87,37 @@ body{
     border-color: blue;
     border-style: solid;
 }
+
+.outerdiv1{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+.innerdiv1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    width: 698px;
+    height: 198px;
+    background-color: yellow;
+    text-align: right;
+}
+
+.outerdiv2{
+    background-color: blue;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.innerdiv2{
+    padding: 12px;
+    margin: auto;
+    height:398px;
+    width: 398px;
+    text-align: right;
+    background-color: yellow;
+
+}
