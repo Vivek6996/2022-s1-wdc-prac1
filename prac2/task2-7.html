@@ -1,52 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel = "stylesheet" href ="prac2.css">
-        <title>task2-7</title>
+h1 {
+    font-family: sans-serif;
+}
 
-    </head>
+p {
+    font-family: serif;
+}
 
+a {
+    font-family: serif;
+    color:darkgreen;
+}
 
-    <body>
-        <div id ="content">
-        <h1>Fun with nested boxes!</h1>
+del {
+    color:grey;
 
-        <hr class = "horizontal-rule">
+}
 
+h3 {
+    color: rgb(0, 0, 139, 0.8);
+}
 
-        <div class = "red-border outerdiv1">
-            <div class = "red-border innerdiv1" >
+pre {
+    font-family: monospace;
+}
 
-                A nested div <br>
-                The outer div has no margin or padding. <br>
-                The inner div has 20px margin on the left and right, 10px above and below. <br>
-                The inner div has 12px padding <br>
-                The inner div is 700px from the left to right borders (inclusive) <br>
-                and 200px from the top to bottom borders (inclusive)
-            </div>
-        </div>
+mark {
+    background-color: pink;
+    color: darkblue;
+}
 
-        <div class = "red-border outerdiv2">
+.transparent-text {
+    color:rgba(0,0,0,0.5);
 
-            <div class = "red-border innerdiv2">
-                A nested div <br>
-                The outer div has a top margin of 20px, but no<br>
-                padding. <br>
-                The inner div is centred <br>
-                The inner div has 12px padding <br>
-                The inner div is 400px square with borders
+}
 
-            </div>
+#content {
+    background-color:white;
+    border: 1px solid darkgrey;
+    border-radius: 8px;
+}
 
+body{
+    background-image: url("cross.png");
+    background-color: #DCF5F5;
+}
 
+.blue {
+    color:blue;
+}
 
-        </div>
+.fancy {
+    font-family: cursive;
+}
 
-    </div>
+.red-outline {
+    outline-color: red;
+    outline-style: solid;
+}
 
-    </body>
+.horizontal-rule {
+    border-color: #CFDFE4;
+}
 
+.red-border {
+    border-color: red;
+    border-style: solid;
+}
 
+.blue-border {
+    border-color: blue;
+    border-style: solid;
+}
 
+.red-border2{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-color: red;
+    border-style: solid;
+    border-bottom: none;
 
-</html>
+}
+
+.blue-border2{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.outerdiv1{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+.innerdiv1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    max-width: 698px;
+    max-height: 198px;
+    background-color: yellow;
+    text-align: right;
+}
+
+.outerdiv2{
+    background-color: blue;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.innerdiv2{
+    padding: 12px;
+    margin: auto;
+    max-height:398px;
+    max-width: 398px;
+    text-align: right;
+    background-color: yellow;
+
+}
