@@ -92,6 +92,7 @@ body{
     background-color: blue;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 .innerdiv1{
@@ -100,16 +101,18 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 12px;
-    max-width: 750px;
-    max-height: 230px;
+    max-width: 766x;
+    max-height: 266px;
     background-color: yellow;
     text-align: right;
+    border: 1px solid red;
 }
 
 .outerdiv2{
     background-color: blue;
     margin-top: 20px;
     padding: 0px;
+    border: 1px solid red;
 }
 
 .innerdiv2{
@@ -119,5 +122,6 @@ body{
     max-width: 398px;
     text-align: right;
     background-color: yellow;
+    border: 1px solid red;
 
 }
