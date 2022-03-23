@@ -34,7 +34,19 @@ mark {
 
 }
 
+#content {
+    background-color:white;
+}
+
 body{
     background-image: url("cross.png");
     background-color: #DCF5F5;
+}
+
+.blue {
+    color:blue;
+}
+
+.fancy {
+    font-family: cursive;
 }
