@@ -101,8 +101,8 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 12px;
-    width: 614px;
-    height: 114px;
+    width: 634px;
+    height: 154px;
     background-color: yellow;
     text-align: right;
     border: 1px solid red;
@@ -118,8 +118,8 @@ body{
 .innerdiv2{
     padding: 12px;
     margin: auto;
-    height:400px;
-    width: 400px;
+    height:374px;
+    width: 374px;
     text-align: right;
     background-color: yellow;
     border: 1px solid red;
