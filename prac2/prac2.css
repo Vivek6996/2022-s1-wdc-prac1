@@ -100,8 +100,8 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 12px;
-    width: 698px;
-    height: 198px;
+    max-width: 698px;
+    max-height: 198px;
     background-color: yellow;
     text-align: right;
 }
@@ -115,8 +115,8 @@ body{
 .innerdiv2{
     padding: 12px;
     margin: auto;
-    height:398px;
-    width: 398px;
+    max-height:398px;
+    max-width: 398px;
     text-align: right;
     background-color: yellow;
 
