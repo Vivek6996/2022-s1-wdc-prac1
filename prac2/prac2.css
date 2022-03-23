@@ -36,6 +36,8 @@ mark {
 
 #content {
     background-color:white;
+    border: 1px solid darkgrey;
+    border-radius: 8px;
 }
 
 body{
@@ -49,4 +51,39 @@ body{
 
 .fancy {
     font-family: cursive;
+}
+
+.red-outline {
+    outline-color: red;
+    outline-style: solid;
+}
+
+.horizontal-rule {
+    border-color: #CFDFE4;
+}
+
+.red-border {
+    border-color: red;
+    border-style: solid;
+}
+
+.blue-border {
+    border-color: blue;
+    border-style: solid;
+}
+
+.red-border2{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-color: red;
+    border-style: solid;
+    border-bottom: none;
+
+}
+
+.blue-border2{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: blue;
+    border-style: solid;
 }
