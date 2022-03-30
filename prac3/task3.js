@@ -24,6 +24,23 @@ function getDatenTime(){
 
 }
 
+function hideMainDiv() {
+
+    document.getElementById("main").style.display = "none";
+    document.getElementById("menu").style.display = "block";
+
+
+}
+
+function showMainDiv() {
+
+
+    document.getElementById("main").style.display = "block";
+    document.getElementById("menu").style.display = "none";
+
+
+}
+
 
 
 
