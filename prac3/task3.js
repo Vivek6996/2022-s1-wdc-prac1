@@ -12,6 +12,7 @@ function counter(){
 }
 
 var postC = "";
+var display=" ";
 
 function getDatenTime(){
 
@@ -22,7 +23,11 @@ function getDatenTime(){
     postC = document.getElementsByClassName("post-content");
     postC[0].innerHTML = document.getElementsByTagName("TEXTAREA")[0].value;
 
+
 }
+
+
+
 
 function hideMainDiv() {
 
@@ -43,6 +48,11 @@ function showMainDiv() {
 
 
 
+function backgroundColor() {
 
+    let color = document.getElementById("bcolor").value;
+    document.body.style.backgroundColor = color;
+
+}
 
 
