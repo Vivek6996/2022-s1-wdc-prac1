@@ -1,31 +1,59 @@
+body {
+    font-family: sans-serif;
+}
 
-var count = 1;
+.container {
+    margin: 0;
+    padding: 0;
+}
 
-function counter(){
+.left {
+    float: left;
+}
 
+.right {
+    float: right;
+}
 
-    numbers = document.getElementById("mcount");
-    numbers.innerHTML = count;
-    count++;
+.controls {
+    width: 240px;
+}
 
+h1,h2,h3 {
+    font-family: serif;
+}
+
+#mcount {
+    background-color: cornflowerblue;
+    font-size: 3em;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    float: left;
 
 }
 
-var postC = "";
+#posts {
+    border: 1px solid darkseagreen;
+    padding: 10px;
+    margin: 0px 10px 10px 150px;
+    min-height: 100px;
+}
 
-function getDatenTime(){
-
-    var t = new Date();
-    var dTime = document.getElementsByClassName("post-time");
-    dTime[0].innerHTML = t;
-
-    postC = document.getElementsByClassName("post-content");
-    postC[0].innerHTML = document.getElementsByTagName("TEXTAREA")[0].value;
-
+hr {
+    clear: both;
 }
 
 
+.post-time {
+    font-size: small;
+    color:grey;
+    font-weight: bold;
 
+    }
 
+.post-content{
 
-
+    color:black;
+}
