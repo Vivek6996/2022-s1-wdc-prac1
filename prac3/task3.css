@@ -1,47 +1,31 @@
-body {
-    font-family: sans-serif;
-}
 
-.container {
-    margin: 0;
-    padding: 0;
-}
+var count = 1;
 
-.left {
-    float: left;
-}
+function counter(){
 
-.right {
-    float: right;
-}
 
-.controls {
-    width: 240px;
-}
+    numbers = document.getElementById("mcount");
+    numbers.innerHTML = count;
+    count++;
 
-h1,h2,h3 {
-    font-family: serif;
-}
-
-#mcount {
-    background-color: cornflowerblue;
-    font-size: 3em;
-    margin: 0px 10px 10px 10px;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
-    float: left;
 
 }
 
-#posts {
-    border: 1px solid darkseagreen;
-    padding: 10px;
-    margin: 0px 10px 10px 150px;
-    min-height: 100px;
+var postC = "";
+
+function getDatenTime(){
+
+    var t = new Date();
+    var dTime = document.getElementsByClassName("post-time");
+    dTime[0].innerHTML = t;
+
+    postC = document.getElementsByClassName("post-content");
+    postC[0].innerHTML = document.getElementsByTagName("TEXTAREA")[0].value;
+
 }
 
-hr {
-    clear: both;
-}
+
+
+
+
 
